@@ -8,7 +8,7 @@
          name:
            - apt-transport-https
            - ca-certificates
-           - lsb-relese
+           - lsb-release
            - gnupg
          state: latest
          update_cache: true
