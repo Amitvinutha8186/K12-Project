@@ -23,6 +23,7 @@
          state: present
          filename: docker
      - name: Install Docker
+       ansible.builtin.apt
          name:
            - docker
            - docker.io
