@@ -15,7 +15,7 @@
 
      - name: Add signing key
        ansible.builtin.apt_key:
-         url: https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+         url: https://download.docker.com/linux/ubuntu/gpg
          state: present
      - name: Add repository into sourse list
        ansible.builtin.apt_repository:
