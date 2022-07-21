@@ -14,7 +14,7 @@
          update_cache: true
 
      - name: Add signing key
-         ansible.builtin.apt_key:
+       ansible.builtin.apt_key:
          url: https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
          state: present
      - name: Add repository into sourse list
